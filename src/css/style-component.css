@@ -1,0 +1,63 @@
+@import "rsuite/dist/rsuite.css"; 
+ 
+ /* sidebar */
+  .contain{
+    display:flex;
+    margin-bottom: 1%;
+  }
+  main{
+    width: 100%;
+    padding: 0;
+  }
+  .sidebar{
+    background: #ffffff;
+    color: #9c54d5;
+    transition: all 0.5s;
+    overflow: 'scroll initial'; 
+  }
+  .top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+  }
+  
+  .bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .link{
+    display: flex;
+    color: #9c54d5;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+
+  .link:hover{
+    background:#462964;
+    color: #fff;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+  .contain .active{
+    /* background: #5ee2f0; */
+    /* color: #fff; */
+    
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+  .icon, .link_text{
+    font-size: 20px;
+
+    text-decoration: none;
+  }
+ 
+  
+  /* content */
+  .content{
+    /* padding-left: 10px; */
+    margin: 20px;
+    /* height: 80vh ; */
+  }

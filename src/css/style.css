@@ -1,0 +1,105 @@
+@import "rsuite/dist/rsuite.css";
+
+.cardContent {
+  padding-left: 50px;
+}
+
+.cardContent .addButton {
+  margin-bottom: 10px;
+}
+
+.cardIMG {
+  padding: 10px;
+}
+
+.cardDropdown {
+  margin-left: 150px;
+}
+
+.addButton {
+  padding-left: 2rem;
+  margin: 2rem;
+}
+
+.AvatarImg {
+  padding-top: 20px;
+  /* padding-left: 30px; */
+}
+
+.detailEducation {
+  width: 700px;
+  height: 300px;
+}
+
+.eduGrid1 {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.eduGrid2 {
+  padding: 20px;
+  /* background-color: #7494d0; */
+  /* height: 400px; */
+}
+
+.rs-table-cell-header .rs-table-cell-content {
+  background-color: #462964;
+  color: #fff;
+}
+
+.css-1633um2-MuiPaper-root {
+  box-shadow: none;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.boxContent {
+  background-color: rgb(255, 255, 255);
+  color: rgb(54, 65, 82);
+  box-shadow: none;
+  background-image: none;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.label-subtitle2 {
+  color: black;
+  font-weight: 500;
+}
+
+.ButtonAdd {
+  margin: 20px 20px 20px 0px;
+}
+
+.table-primary {
+  --bs-table-color: #fff!important;
+  --bs-table-bg: #462964!important;
+}
+
+/* .rs-stack  {
+  justify-content: right!important;
+} */
+
+.rs-btn-primary {
+  /* color: #fff;
+  color: var(--rs-btn-primary-text); */
+  background-color: #9c27b0!important;
+  /* background-color: var(--rs-btn-primary-bg);
+  border: none; */
+}
+
+/* .rs-steps-item-status-process .rs-steps-item-icon-wrapper {
+  border-color: #9c54d5!important;
+  border-color: var(--rs-steps-state-process);
+  background-color: #9c54d5!important;
+  background-color: var(--rs-steps-state-process);
+  color: #f7f7fa;
+  color: var(--rs-text-inverse);
+} */
+
+
+.rs-btn-icon-with-text > .rs-icon {
+  background-color: #9c27b0!important;
+}
